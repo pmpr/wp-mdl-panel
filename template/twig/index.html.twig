@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{% if rtl is defined and rtl %}fa" dir="rtl" style="direction: rtl{% else %}en{% endif %}">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>{{ title|raw }}</title>
+        <meta name="description" content="{{ description|raw }}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vazir-font/27.2.2/font-face.css">
+        {{ do_action('panel_head'|generate_hook) }}
+    </head>
+    <body class="{{ body_class|raw }}">
+        <noscript>
+            <strong>{{ enable_js_message }}</strong>
+        </noscript>
+        <div id="app">
+          <div class="page-loader page-loader-logo" v-if="isShow">
+            <div class="spinner spinner-primary spinner-lg" :class="`spinner-${size}`"></div>
+          </div>
+        </div>
+        <script>
+            window.externalSiteURL          = '{{ site_url|raw }}';
+            window.externalPublicPath       = '{{ public_path|raw }}';
+            window.externalIconsPublicPath  = '{{ icons_public_path|raw }}';
+        </script>
+        {{ do_action('panel_footer'|generate_hook) }}
+    </body>
+</html>
