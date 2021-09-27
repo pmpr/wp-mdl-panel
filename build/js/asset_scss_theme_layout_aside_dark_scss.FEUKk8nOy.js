@@ -1,0 +1,2 @@
+/*! For license information please see asset_scss_theme_layout_aside_dark_scss.FEUKk8nOy.js.LICENSE.txt */
+(self.webpackChunkpmpr_wp_pkg_panel=self.webpackChunkpmpr_wp_pkg_panel||[]).push([["asset_scss_theme_layout_aside_dark_scss"],{7847:function(s,p,_){"use strict";_.r(p)}}]);
