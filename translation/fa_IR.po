@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Panel\n"
-"POT-Creation-Date: 2021-07-07 23:12+0430\n"
-"PO-Revision-Date: 2021-07-07 23:12+0430\n"
-"Last-Translator: Farshadi <Farshad_asgharzade@hotmail.com>\n"
+"POT-Creation-Date: 2021-10-08 16:04+0330\n"
+"PO-Revision-Date: 2021-10-08 16:05+0330\n"
+"Last-Translator:  Farshad Asgharzade <Farshad_asgharzade@hotmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
 "MIME-Version: 1.0\n"
@@ -53,397 +53,516 @@ msgstr "دانلود‌های من"
 msgid "List of your downloaded products."
 msgstr "لیست محصولات دانلودی شما."
 
-#: src/Pmpr/Package/Panel/REST/Auth.php:175
-msgid "No user found with this email address."
+#: src/Pmpr/Package/Panel/REST/Auth.php:200
+msgid "can not found requested fields."
 msgstr ""
 
-#: src/Pmpr/Package/Panel/REST/Auth.php:179
-msgid "The Email you entered is not valid."
-msgstr "ایمیلی که وارد کرده‌اید معتبر نیست."
-
-#: src/Pmpr/Package/Panel/REST/Auth.php:201
-msgid "Entered current password and new password is same."
-msgstr ""
-
-#: src/Pmpr/Package/Panel/REST/Auth.php:210
-msgid "Password changed successfully"
-msgstr "گذرواژه با موفقیت به روز شد"
-
-#: src/Pmpr/Package/Panel/REST/Auth.php:217
-msgid "Entered current password is not correct."
-msgstr ""
-
-#: src/Pmpr/Package/Panel/REST/Auth.php:221
-msgid "Missing parameter."
-msgstr "پارامتر ضروری وجود ندارد."
-
-#: src/Pmpr/Package/Panel/REST/Auth.php:269
-#: src/Pmpr/Package/Panel/REST/Auth.php:274
-#: src/Pmpr/Package/Panel/REST/Auth.php:279
-#, php-format
-msgid "%s field is required."
-msgstr "فیلد %s ضروری است."
-
-#: src/Pmpr/Package/Panel/REST/Auth.php:269
-#: src/Pmpr/Package/Panel/REST/Profile.php:272
-msgid "Username"
-msgstr "نام کاربری"
-
-#: src/Pmpr/Package/Panel/REST/Auth.php:274
-#: src/Pmpr/Package/Panel/REST/Profile.php:74
-#: src/Pmpr/Package/Panel/REST/Setting.php:82
+#: src/Pmpr/Package/Panel/REST/Auth.php:244
+#: src/Pmpr/Package/Panel/REST/Profile.php:77
+#: src/Pmpr/Package/Panel/REST/Setting.php:119
 msgid "Email"
 msgstr "ایمیل"
 
-#: src/Pmpr/Package/Panel/REST/Auth.php:279
-#: src/Pmpr/Package/Panel/REST/Setting.php:83
+#: src/Pmpr/Package/Panel/REST/Auth.php:251
+msgid "Email or Username"
+msgstr "ایمیل یا نام کاربری"
+
+#: src/Pmpr/Package/Panel/REST/Auth.php:255
+#: src/Pmpr/Package/Panel/REST/Auth.php:274
+#: src/Pmpr/Package/Panel/REST/Setting.php:121
 msgid "Password"
 msgstr "گذرواژه"
 
-#: src/Pmpr/Package/Panel/REST/Auth.php:299
-msgid "Username already exists, please enter another username"
-msgstr "نام کاربری وجود دارد، لطفا نام کاربری دیگری را وارد کنید"
+#: src/Pmpr/Package/Panel/REST/Auth.php:261
+msgid "Firstname"
+msgstr "نام"
 
-#: src/Pmpr/Package/Panel/REST/Auth.php:305
+#: src/Pmpr/Package/Panel/REST/Auth.php:265
+msgid "Lastname"
+msgstr "نام خانوادگی"
+
+#: src/Pmpr/Package/Panel/REST/Auth.php:269
+#: src/Pmpr/Package/Panel/REST/Profile.php:271
+#: src/Pmpr/Package/Panel/REST/Setting.php:122
+msgid "Username"
+msgstr "نام کاربری"
+
+#: src/Pmpr/Package/Panel/REST/Auth.php:278
+msgid "Repeat Password"
+msgstr "تکرار گذرواژه"
+
+#: src/Pmpr/Package/Panel/REST/Auth.php:316
+msgid "No user found with this email address."
+msgstr ""
+
+#: src/Pmpr/Package/Panel/REST/Auth.php:320
+msgid "The Email you entered is not valid."
+msgstr "ایمیلی که وارد کرده‌اید معتبر نیست."
+
+#: src/Pmpr/Package/Panel/REST/Auth.php:342
+msgid "Entered current password and new password is same."
+msgstr ""
+
+#: src/Pmpr/Package/Panel/REST/Auth.php:351
+msgid "Password changed successfully"
+msgstr "گذرواژه با موفقیت به روز شد"
+
+#: src/Pmpr/Package/Panel/REST/Auth.php:358
+msgid "Entered current password is not correct."
+msgstr ""
+
+#: src/Pmpr/Package/Panel/REST/Auth.php:362
+msgid "Missing parameter."
+msgstr "پارامتر ضروری وجود ندارد."
+
+#: src/Pmpr/Package/Panel/REST/Auth.php:409
 msgid "Email already exists, please try Forget Password"
 msgstr "ایمیل همین الان وجود دارد، لطفا بازیابی گذرواژه را امتحان کنید"
 
-#: src/Pmpr/Package/Panel/REST/Auth.php:387
-#: src/Pmpr/Package/Panel/REST/Base.php:101
-msgid "JWT is not configured properly."
-msgstr ""
+#: src/Pmpr/Package/Panel/REST/Auth.php:412
+msgid "Username already exists, please enter another username"
+msgstr "نام کاربری وجود دارد، لطفا نام کاربری دیگری را وارد کنید"
 
-#: src/Pmpr/Package/Panel/REST/Base.php:89
-msgid "User ID not found in the token"
-msgstr ""
+#: src/Pmpr/Package/Panel/REST/Auth.php:417
+msgid "Passwords are not same"
+msgstr "گذرواژه‌های وارد شده مثل هم نیستند"
 
-#: src/Pmpr/Package/Panel/REST/Base.php:92
-msgid "The iss do not match with this server"
-msgstr ""
+#: src/Pmpr/Package/Panel/REST/Auth.php:433
+msgid "Your account created successfully"
+msgstr "حساب کاربری شما با موفقیت ایجاد شد"
 
-#: src/Pmpr/Package/Panel/REST/Base.php:105
-msgid "Authorization header malformed."
-msgstr ""
-
-#: src/Pmpr/Package/Panel/REST/Base.php:109
-msgid "Authorization header not found"
-msgstr ""
-
-#: src/Pmpr/Package/Panel/REST/Base.php:129
+#: src/Pmpr/Package/Panel/REST/Auth.php:436
+#: src/Pmpr/Package/Panel/REST/Common.php:130
 msgid "User not found"
 msgstr "کاربر مورد نظر یافت نشد"
 
-#: src/Pmpr/Package/Panel/REST/Profile.php:75
-#: src/Pmpr/Package/Panel/REST/Profile.php:336
+#: src/Pmpr/Package/Panel/REST/Auth.php:443
+#: src/Pmpr/Package/Panel/REST/Auth.php:519
+msgid "Entered values is not valid."
+msgstr "داده‌های وارد شده معتبر نمی‌باشد."
+
+#: src/Pmpr/Package/Panel/REST/Auth.php:457
+msgid "Logged out"
+msgstr "خروج"
+
+#: src/Pmpr/Package/Panel/REST/Auth.php:523
+#: src/Pmpr/Package/Panel/REST/Common.php:102
+msgid "JWT is not configured properly."
+msgstr ""
+
+#: src/Pmpr/Package/Panel/REST/Common.php:89
+msgid "User ID not found in the token"
+msgstr ""
+
+#: src/Pmpr/Package/Panel/REST/Common.php:92
+msgid "The iss do not match with this server"
+msgstr ""
+
+#: src/Pmpr/Package/Panel/REST/Common.php:106
+msgid "Authorization header malformed."
+msgstr ""
+
+#: src/Pmpr/Package/Panel/REST/Common.php:110
+msgid "Authorization header not found"
+msgstr ""
+
+#: src/Pmpr/Package/Panel/REST/Profile.php:78
+#: src/Pmpr/Package/Panel/REST/Profile.php:328
 msgid "Website"
 msgstr "وب سایت"
 
-#: src/Pmpr/Package/Panel/REST/Profile.php:192
+#: src/Pmpr/Package/Panel/REST/Profile.php:191
 #, php-format
 msgid "field update profile: %s"
 msgstr ""
 
-#: src/Pmpr/Package/Panel/REST/Profile.php:200
+#: src/Pmpr/Package/Panel/REST/Profile.php:199
 msgid "Profile update successfully."
 msgstr "پروفایل با موفقیت به روز شد."
 
-#: src/Pmpr/Package/Panel/REST/Profile.php:205
+#: src/Pmpr/Package/Panel/REST/Profile.php:203
 msgid "Segment field is is missing"
 msgstr ""
 
-#: src/Pmpr/Package/Panel/REST/Profile.php:232
+#: src/Pmpr/Package/Panel/REST/Profile.php:230
 #, php-format
 msgid "%s is a require field"
 msgstr "فیلد %s ضروری است"
 
-#: src/Pmpr/Package/Panel/REST/Profile.php:243
+#: src/Pmpr/Package/Panel/REST/Profile.php:241
 msgid "The Url you entered is not valid"
 msgstr "پیوندی که وارد کرده‌اید معتبر نیست"
 
-#: src/Pmpr/Package/Panel/REST/Profile.php:248
+#: src/Pmpr/Package/Panel/REST/Profile.php:247
 msgid "The Email you entered is not valid"
 msgstr "ایمیلی که وارد کرده‌اید معتبر نیست"
 
-#: src/Pmpr/Package/Panel/REST/Profile.php:277
+#: src/Pmpr/Package/Panel/REST/Profile.php:276
 msgid "Create Account Date"
 msgstr "تاریخ ایجاد حساب"
 
-#: src/Pmpr/Package/Panel/REST/Profile.php:283
-#: src/Pmpr/Package/Panel/REST/Profile.php:285
+#: src/Pmpr/Package/Panel/REST/Profile.php:282
 msgid "Current Password"
 msgstr "گذرواژه جاری"
 
-#: src/Pmpr/Package/Panel/REST/Profile.php:289
-#: src/Pmpr/Package/Panel/REST/Profile.php:291
+#: src/Pmpr/Package/Panel/REST/Profile.php:286
 msgid "New Password"
 msgstr "گذرواژه جدید"
 
-#: src/Pmpr/Package/Panel/REST/Profile.php:295
-#: src/Pmpr/Package/Panel/REST/Profile.php:297
+#: src/Pmpr/Package/Panel/REST/Profile.php:290
 msgid "Verify Password"
 msgstr "تایید گذرواژه"
 
-#: src/Pmpr/Package/Panel/REST/Profile.php:302
+#: src/Pmpr/Package/Panel/REST/Profile.php:295
 msgid "User Info"
 msgstr "اطلاعات کاربر"
 
-#: src/Pmpr/Package/Panel/REST/Profile.php:306
+#: src/Pmpr/Package/Panel/REST/Profile.php:299
 msgid "Avatar"
 msgstr "آواتار"
 
-#: src/Pmpr/Package/Panel/REST/Profile.php:311
+#: src/Pmpr/Package/Panel/REST/Profile.php:300
+#, php-format
+msgid "Accepted filetypes is %s"
+msgstr ""
+
+#: src/Pmpr/Package/Panel/REST/Profile.php:306
 msgid "First Name"
 msgstr "نام"
 
-#: src/Pmpr/Package/Panel/REST/Profile.php:316
+#: src/Pmpr/Package/Panel/REST/Profile.php:310
 msgid "Last Name"
 msgstr "نام خانوادگی"
 
-#: src/Pmpr/Package/Panel/REST/Profile.php:321
+#: src/Pmpr/Package/Panel/REST/Profile.php:314
 msgid "Nick Name"
 msgstr "نام مستعار"
 
-#: src/Pmpr/Package/Panel/REST/Profile.php:326
+#: src/Pmpr/Package/Panel/REST/Profile.php:318
 msgid "Contact Info"
 msgstr "اطلاعات تماس"
 
-#: src/Pmpr/Package/Panel/REST/Profile.php:330
+#: src/Pmpr/Package/Panel/REST/Profile.php:322
 msgid "Contact Email"
 msgstr "ایمیل تماس"
 
-#: src/Pmpr/Package/Panel/REST/Profile.php:332
+#: src/Pmpr/Package/Panel/REST/Profile.php:324
 msgid "We'll never share your email with anyone else."
 msgstr ""
 
-#: src/Pmpr/Package/Panel/REST/Router.php:52
-#: src/Pmpr/Package/Panel/REST/Setting.php:103
+#: src/Pmpr/Package/Panel/REST/Router.php:54
+#: src/Pmpr/Package/Panel/REST/Setting.php:150
 msgid "User"
 msgstr "کاربر"
 
-#: src/Pmpr/Package/Panel/REST/Router.php:58
+#: src/Pmpr/Package/Panel/REST/Router.php:60
 msgid "User Profile"
 msgstr "پروفایل کاربر"
 
-#: src/Pmpr/Package/Panel/REST/Router.php:64
-msgid "Profile Overview"
-msgstr "مرور کلی پروفایل"
-
-#: src/Pmpr/Package/Panel/REST/Router.php:72
+#: src/Pmpr/Package/Panel/REST/Router.php:67
 msgid "Personal Information"
 msgstr "اطلاعات شخصی"
 
-#: src/Pmpr/Package/Panel/REST/Router.php:73
+#: src/Pmpr/Package/Panel/REST/Router.php:68
 msgid "Update your personal information"
 msgstr "به روزرسانی اطلاعات شخصی"
 
-#: src/Pmpr/Package/Panel/REST/Router.php:79
+#: src/Pmpr/Package/Panel/REST/Router.php:74
 msgid "Account Information"
 msgstr "اطلاعات حساب"
 
-#: src/Pmpr/Package/Panel/REST/Router.php:81
+#: src/Pmpr/Package/Panel/REST/Router.php:76
 msgid "See your account information"
 msgstr "مشاهده اطلاعات حساب"
 
-#: src/Pmpr/Package/Panel/REST/Router.php:87
+#: src/Pmpr/Package/Panel/REST/Router.php:82
 msgid "Change Password"
 msgstr "تغییر گذرواژه"
 
-#: src/Pmpr/Package/Panel/REST/Router.php:89
+#: src/Pmpr/Package/Panel/REST/Router.php:84
 msgid "Change your account password"
 msgstr "تغییر گذرواژه حساب شما"
 
-#: src/Pmpr/Package/Panel/REST/Router.php:97
+#: src/Pmpr/Package/Panel/REST/Router.php:92
 msgid "Modules"
 msgstr "ماژول‌ها"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:56
+#: src/Pmpr/Package/Panel/REST/Router.php:106
+msgid "Admin Area"
+msgstr "بخش ادمین"
+
+#: src/Pmpr/Package/Panel/REST/Setting.php:75
 msgid "Are you sure you want to logout?"
 msgstr "آیا می‌خواهید خارج شوید؟"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:57
+#: src/Pmpr/Package/Panel/REST/Setting.php:76
 msgid "Logout"
 msgstr "خروج"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:59
+#: src/Pmpr/Package/Panel/REST/Setting.php:78
 msgid "No!"
 msgstr "خیر!"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:60
+#: src/Pmpr/Package/Panel/REST/Setting.php:79
 msgid "Yes!"
 msgstr "بله!"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:61
+#: src/Pmpr/Package/Panel/REST/Setting.php:80
 msgid "Hi"
 msgstr "سلام"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:62
+#: src/Pmpr/Package/Panel/REST/Setting.php:81
 msgid "API Key"
 msgstr "کلید وب‌سرویس"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:63
+#: src/Pmpr/Package/Panel/REST/Setting.php:82
 msgid "Welcome!"
 msgstr "خوش آمدید!"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:64
+#: src/Pmpr/Package/Panel/REST/Setting.php:83
 msgid "My Profile"
 msgstr "پروفایل من"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:65
+#: src/Pmpr/Package/Panel/REST/Setting.php:84
 msgid "Nothing is change to save."
 msgstr "تغییری برای ذخیره یافت نشد."
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:66
+#: src/Pmpr/Package/Panel/REST/Setting.php:85
 msgid "There is no record yet."
 msgstr "هنوز رکوردی وجود ندارد."
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:68
+#: src/Pmpr/Package/Panel/REST/Setting.php:87
 msgid "Save Changes"
 msgstr "ذخیره تغییرات"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:69
+#: src/Pmpr/Package/Panel/REST/Setting.php:88
+msgid "Submit"
+msgstr "تایید"
+
+#: src/Pmpr/Package/Panel/REST/Setting.php:89
+#: src/Pmpr/Package/Panel/REST/Setting.php:94
 msgid "Cancel"
 msgstr "انصراف"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:70
+#: src/Pmpr/Package/Panel/REST/Setting.php:90
 msgid "Verify"
 msgstr "تایید مالکیت"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:74
-msgid "Authentication"
-msgstr "احراز هویت"
+#: src/Pmpr/Package/Panel/REST/Setting.php:95
+msgid "OK"
+msgstr "باشه"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:75
+#: src/Pmpr/Package/Panel/REST/Setting.php:99
 msgid "Login"
 msgstr "ورود"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:76
-#: src/Pmpr/Package/Panel/REST/Setting.php:90
-msgid "Forget Password"
-msgstr "بازیابی گذرواژه"
+#: src/Pmpr/Package/Panel/REST/Setting.php:100
+#, php-format
+msgid "Welcome to %s"
+msgstr "به %s خوش آمدید"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:77
-msgid "Register"
-msgstr "ثبت نام"
+#: src/Pmpr/Package/Panel/REST/Setting.php:101
+msgid "Sign in"
+msgstr "ورود"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:86
-msgid "Invalid Data"
-msgstr "داده‌ی نا معتبر"
+#: src/Pmpr/Package/Panel/REST/Setting.php:102
+msgid "Sign out"
+msgstr "خروج"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:87
+#: src/Pmpr/Package/Panel/REST/Setting.php:103
+msgid "Don't have an account?"
+msgstr "هنوز حساب کاربری ندارید؟"
+
+#: src/Pmpr/Package/Panel/REST/Setting.php:104
+msgid "Create an account"
+msgstr "یک حساب کاربری بسازید"
+
+#: src/Pmpr/Package/Panel/REST/Setting.php:105
+msgid "Sign in with Google"
+msgstr "ثبت نام با گوگل"
+
+#: src/Pmpr/Package/Panel/REST/Setting.php:107
+#: src/Pmpr/Package/Panel/Setting.php:75
+msgid "Authentication"
+msgstr "احراز هویت"
+
+#: src/Pmpr/Package/Panel/REST/Setting.php:108
+msgid "Login to Account"
+msgstr "ورود به حساب کاربری"
+
+#: src/Pmpr/Package/Panel/REST/Setting.php:109
+msgid "Forgot Your Password?"
+msgstr "گذرواژه‌تان را فراموش کرده‌اید؟"
+
+#: src/Pmpr/Package/Panel/REST/Setting.php:110
+msgid "Register Account"
+msgstr "ایجاد حساب کاربری"
+
+#: src/Pmpr/Package/Panel/REST/Setting.php:113
+msgid "Enter your email to reset your password"
+msgstr "برای بازیابی گذرواژه‌، ایمیل خود را وارد کنید"
+
+#: src/Pmpr/Package/Panel/REST/Setting.php:114
+msgid "Enter your details to create your account"
+msgstr "اطلاعات خود را برای ایجاد حساب کاربری وارد کنید"
+
+#: src/Pmpr/Package/Panel/REST/Setting.php:120
+msgid "Fullname"
+msgstr "نام و نام خانوادگی"
+
+#: src/Pmpr/Package/Panel/REST/Setting.php:123
+msgid "Confirm password"
+msgstr "تکرار گذرواژه"
+
+#: src/Pmpr/Package/Panel/REST/Setting.php:126
 msgid "Please, provide correct data"
 msgstr "لطفا داده  درست را ارائه دهید"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:95
+#: src/Pmpr/Package/Panel/REST/Setting.php:127
+msgid "Invalid Data"
+msgstr "داده‌ی نا معتبر"
+
+#: src/Pmpr/Package/Panel/REST/Setting.php:128
+#, php-format
+msgid "Entered value is not a valid %s"
+msgstr "مقدار وارد شده %s معتبری نیست"
+
+#: src/Pmpr/Package/Panel/REST/Setting.php:129
+#, php-format
+msgid "Field %s is require and can't be empty"
+msgstr "فیلد %s الزامی است و نمی‌تواند خالی باشد"
+
+#: src/Pmpr/Package/Panel/REST/Setting.php:130
+msgid ""
+"The entered data is not valid, please enter the correct value according to "
+"the displayed errors."
+msgstr ""
+"داده‌های وارد شده معتبر نیستند، لطفا با توجه به خطا‌های نمایش داده شده مقدار "
+"صحیح را وارد کنید."
+
+#: src/Pmpr/Package/Panel/REST/Setting.php:132
+msgid "The current password and old password cannot be the same as each other"
+msgstr ""
+
+#: src/Pmpr/Package/Panel/REST/Setting.php:133
+msgid "The password and its confirm are not the same"
+msgstr "گذرواژه و تایید گذرواژه مثل هم نیستند"
+
+#: src/Pmpr/Package/Panel/REST/Setting.php:137
+msgid "Forget Password"
+msgstr "بازیابی گذرواژه"
+
+#: src/Pmpr/Package/Panel/REST/Setting.php:142
 msgid "Add"
 msgstr "افزودن"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:96
+#: src/Pmpr/Package/Panel/REST/Setting.php:143
 msgid "List"
 msgstr "لیست"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:97
+#: src/Pmpr/Package/Panel/REST/Setting.php:144
 msgid "Edit"
 msgstr "ویرایش"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:98
+#: src/Pmpr/Package/Panel/REST/Setting.php:145
 msgid "Show"
 msgstr "نمایش"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:99
+#: src/Pmpr/Package/Panel/REST/Setting.php:146
 msgid "Delete"
 msgstr "حذف"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:101
+#: src/Pmpr/Package/Panel/REST/Setting.php:148
 msgid "Url"
 msgstr "پیوند"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:102
+#: src/Pmpr/Package/Panel/REST/Setting.php:149
 msgid "Name"
 msgstr "نام"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:104
+#: src/Pmpr/Package/Panel/REST/Setting.php:151
 msgid "Actions"
 msgstr "عملیات"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:105
+#: src/Pmpr/Package/Panel/REST/Setting.php:152
 msgid "Created At"
 msgstr "تاریخ ایجاد"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:106
+#: src/Pmpr/Package/Panel/REST/Setting.php:153
 msgid "Status"
 msgstr "وضعیت"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:107
+#: src/Pmpr/Package/Panel/REST/Setting.php:154
 msgid "Capability"
 msgstr "دسترسی"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:110
+#: src/Pmpr/Package/Panel/REST/Setting.php:157
 #, php-format
 msgid "%s is not valid"
 msgstr "%s معتبر نیست"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:111
+#: src/Pmpr/Package/Panel/REST/Setting.php:158
 #, php-format
 msgid "%s is required"
 msgstr "فیلد %s ضروری است"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:112
+#: src/Pmpr/Package/Panel/REST/Setting.php:159
 #, php-format
 msgid "%s minimum length is %s"
 msgstr ""
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:115
+#: src/Pmpr/Package/Panel/REST/Setting.php:162
 #, php-format
 msgid "Displaying %s to %s of %s items"
 msgstr "نمایش %s تا %s از %s مورد"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:118
+#: src/Pmpr/Package/Panel/REST/Setting.php:165
 #, php-format
 msgid "and %s more"
 msgstr "و %s مورد دیگر"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:119
+#: src/Pmpr/Package/Panel/REST/Setting.php:166
 msgid "Type to search..."
 msgstr "برای شروع جستجو تایپ کنید..."
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:120
-#: src/Pmpr/Package/Panel/Rewrite.php:109
+#: src/Pmpr/Package/Panel/REST/Setting.php:167
+#: src/Pmpr/Package/Panel/Rewrite.php:178
 msgid "Loading..."
 msgstr "در حال بارگذاری..."
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:121
+#: src/Pmpr/Package/Panel/REST/Setting.php:168
 msgid "Clear all"
 msgstr "پاک کردن همه"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:122
+#: src/Pmpr/Package/Panel/REST/Setting.php:169
 msgid "No options available."
 msgstr "هیچ گزینه‌ای وجود ندارد."
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:123
+#: src/Pmpr/Package/Panel/REST/Setting.php:170
 msgid "No results found..."
 msgstr "هیچ نتیجه‌ای یافت نشد..."
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:124
+#: src/Pmpr/Package/Panel/REST/Setting.php:171
 msgid "Clear value"
 msgstr "پاک کردن مقدار"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:125
+#: src/Pmpr/Package/Panel/REST/Setting.php:172
 msgid "No sub-options."
 msgstr "هیچ زیر گزینه‌ای وجود ندارد."
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:127
+#: src/Pmpr/Package/Panel/REST/Setting.php:174
 msgid "Retry?"
 msgstr "دوباره امتحان می‌کنید؟"
 
-#: src/Pmpr/Package/Panel/REST/Setting.php:128
+#: src/Pmpr/Package/Panel/REST/Setting.php:175
 msgid "Click to retry"
 msgstr "برای تلاش دوباره کلیک کنید"
 
-#: src/Pmpr/Package/Panel/Rewrite.php:59
+#: src/Pmpr/Package/Panel/Rewrite.php:127
 msgid "Frontend Panel"
 msgstr "پنل فرانت"
 
-#: src/Pmpr/Package/Panel/Rewrite.php:111
+#: src/Pmpr/Package/Panel/Rewrite.php:180
 msgid ""
 "Looks like your browser not supporting js. please enable it or try with "
 "another browser"
@@ -451,57 +570,94 @@ msgstr ""
 "به نظر می‌رسد که مرورگر شما از جاوااسکریپت پشتیبانی نمی‌کند، لطفا این قابلیت را "
 "فعال کنید یا مرورگرتان را تغییر دهید"
 
-#: src/Pmpr/Package/Panel/Setting.php:30
+#: src/Pmpr/Package/Panel/Setting.php:36
 msgid "Panel"
 msgstr "پنل"
 
-#: src/Pmpr/Package/Panel/Setting.php:41
+#: src/Pmpr/Package/Panel/Setting.php:47
 msgid "Theme"
 msgstr "پوسته"
 
-#: src/Pmpr/Package/Panel/Setting.php:45
+#: src/Pmpr/Package/Panel/Setting.php:51
 msgid "General"
 msgstr "عمومی"
 
-#: src/Pmpr/Package/Panel/Setting.php:49
+#: src/Pmpr/Package/Panel/Setting.php:55
 msgid "Small Logo"
 msgstr "لوگو کوچک"
 
-#: src/Pmpr/Package/Panel/Setting.php:54
+#: src/Pmpr/Package/Panel/Setting.php:60
 msgid "Side Logo"
 msgstr "لوگو سایدبار"
 
-#: src/Pmpr/Package/Panel/Setting.php:60
+#: src/Pmpr/Package/Panel/Setting.php:65
+msgid "Show Admin To"
+msgstr ""
+
+#: src/Pmpr/Package/Panel/Setting.php:71
+msgid "Configs"
+msgstr "پیکربندی"
+
+#: src/Pmpr/Package/Panel/Setting.php:79
+msgid "Auth Text Color"
+msgstr ""
+
+#: src/Pmpr/Package/Panel/Setting.php:84
+msgid "Auth Background Color"
+msgstr ""
+
+#: src/Pmpr/Package/Panel/Setting.php:90
 msgid "Footer"
 msgstr "پاورقی"
 
-#: src/Pmpr/Package/Panel/Setting.php:64
+#: src/Pmpr/Package/Panel/Setting.php:94
 msgid "Footer Text"
 msgstr "متن پاورقی"
 
-#: src/Pmpr/Package/Panel/Setting.php:69
+#: src/Pmpr/Package/Panel/Setting.php:99
 msgid "Footer Links"
 msgstr "لینک‌های پاورقی"
 
-#: src/Pmpr/Package/Panel/Setting.php:73
+#: src/Pmpr/Package/Panel/Setting.php:103
 msgid "Page"
 msgstr "صفحه"
 
-#: src/Pmpr/Package/Panel/Setting.php:77
+#: src/Pmpr/Package/Panel/Setting.php:107
 msgid "Priority"
 msgstr "الویت"
 
-#: src/Pmpr/Package/Panel/Setting.php:81
+#: src/Pmpr/Package/Panel/Setting.php:111
 msgid "Title"
 msgstr "عنوان"
 
-#: src/Pmpr/Package/Panel/Setting.php:82
+#: src/Pmpr/Package/Panel/Setting.php:112
 msgid "Leave empty if you want show page title."
 msgstr "اگر می‌خواهید از عنوان خود صفحه استفاده شود، این فیلد را خالی رها کنید."
 
-#: src/Pmpr/Package/Panel/Setting.php:86
+#: src/Pmpr/Package/Panel/Setting.php:116
 msgid "We show selected page as Link in footer after contact information."
 msgstr ""
+
+#~ msgid "URL"
+#~ msgstr "پیوند"
+
+#~ msgid "Email Address"
+#~ msgstr "ایمیل"
+
+#~ msgid "The entered value is not a valid email address"
+#~ msgstr "ایمیلی که وارد کرده‌اید معتبر نیست"
+
+#~ msgid "Register"
+#~ msgstr "ثبت نام"
+
+#~ msgid "%s field is required."
+#~ msgstr "فیلد %s ضروری است."
+
+#~ msgid "Profile Overview"
+#~ msgstr "مرور کلی پروفایل"
+
+#~ msgid "Email or password is not valid."
+#~ msgstr "ایمیل یا گذر"
 
 #~ msgid "Dashboard"
 #~ msgstr "داشبورد"
