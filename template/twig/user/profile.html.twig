@@ -1,0 +1,28 @@
+<h2 id="panel_verification">{{ title|raw }}</h2>
+<table class="form-table">
+    {% for field in fields %}
+        <tr>
+            <th>
+                <label for="{{ field.id|esc_attr }}">{{ field.label|raw }}</label>
+            </th>
+            <td>{{ field.html|raw }}</td>
+        </tr>
+    {% endfor %}
+    {% for field in verifications %}
+        <tr>
+            <th>
+                <label for="{{ field.id|esc_attr }}">{{ field.label|raw }}</label>
+            </th>
+            <td>
+                <div class="d-flex">
+                    <div>
+                        {{ field.html|raw }}
+                    </div>
+                    <div class="my-auto">
+                        {{ field.value|raw }}
+                    </div>
+                </div>
+            </td>
+        </tr>
+    {% endfor %}
+</table>
