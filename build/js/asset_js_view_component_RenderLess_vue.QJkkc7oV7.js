@@ -1,2 +1,0 @@
-/*! For license information please see asset_js_view_component_RenderLess_vue.QJkkc7oV7.js.LICENSE.txt */
-(self.webpackChunkpmpr_wp_pkg_panel=self.webpackChunkpmpr_wp_pkg_panel||[]).push([["asset_js_view_component_RenderLess_vue"],{8756:function(e,n,s){"use strict";s.r(n),s.d(n,{default:function(){return l}});var p={name:"PanelRenderLess",render:()=>null},u=(0,s(9792).Z)(p,undefined,undefined,!1,null,null,null);u.options.__file="asset/js/view/component/RenderLess.vue";var l=u.exports}}]);
