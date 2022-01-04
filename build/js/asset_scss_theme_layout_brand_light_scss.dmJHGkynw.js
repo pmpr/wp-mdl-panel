@@ -1,2 +1,0 @@
-/*! For license information please see asset_scss_theme_layout_brand_light_scss.dmJHGkynw.js.LICENSE.txt */
-(self.webpackChunkpmpr_wp_pkg_panel=self.webpackChunkpmpr_wp_pkg_panel||[]).push([["asset_scss_theme_layout_brand_light_scss"],{3454:function(p,s,_){"use strict";_.r(s)}}]);
