@@ -1,18 +1,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Panel\n"
-"POT-Creation-Date: 2021-12-24 11:54+0330\n"
-"PO-Revision-Date: 2021-12-24 11:55+0330\n"
-"Last-Translator:  Farshad Asgharzade <Farshad_asgharzade@hotmail.com>\n"
+"POT-Creation-Date: 2022-03-21 13:03+0330\n"
+"PO-Revision-Date: 2022-03-21 13:06+0330\n"
+"Last-Translator: Farshad Asgharzade <Farshad_asgharzade@hotmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: index.php\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Source-Language: en\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
@@ -33,23 +33,23 @@ msgstr[0] ""
 msgid "At %s"
 msgstr "در %s"
 
-#: src/Pmpr/Package/Panel/Plugin/Woocommerce/Woocommerce.php:116
+#: src/Pmpr/Package/Panel/Plugin/Woocommerce/Woocommerce.php:120
 msgid "Store"
 msgstr "فروشگاه"
 
-#: src/Pmpr/Package/Panel/Plugin/Woocommerce/Woocommerce.php:122
+#: src/Pmpr/Package/Panel/Plugin/Woocommerce/Woocommerce.php:126
 msgid "My Orders"
 msgstr "سفارش‌های من"
 
-#: src/Pmpr/Package/Panel/Plugin/Woocommerce/Woocommerce.php:124
+#: src/Pmpr/Package/Panel/Plugin/Woocommerce/Woocommerce.php:128
 msgid "List of your product orders."
 msgstr "لست محصولات سفارش داده شده توسط شما."
 
-#: src/Pmpr/Package/Panel/Plugin/Woocommerce/Woocommerce.php:128
+#: src/Pmpr/Package/Panel/Plugin/Woocommerce/Woocommerce.php:132
 msgid "My Downloads"
 msgstr "دانلود‌های من"
 
-#: src/Pmpr/Package/Panel/Plugin/Woocommerce/Woocommerce.php:130
+#: src/Pmpr/Package/Panel/Plugin/Woocommerce/Woocommerce.php:134
 msgid "List of your downloaded products."
 msgstr "لیست محصولات دانلودی شما."
 
@@ -235,14 +235,10 @@ msgid "Login to Account"
 msgstr "ورود به حساب کاربری"
 
 #: src/Pmpr/Package/Panel/REST/Router.php:104
-#, fuzzy
-#| msgid "Register Account"
 msgid "Register An Account"
-msgstr "ایجاد حساب کاربری"
+msgstr "ایجاد حساب یک کاربری"
 
 #: src/Pmpr/Package/Panel/REST/Router.php:109
-#, fuzzy
-#| msgid "Forget Password"
 msgid "Forgot My Password"
 msgstr "بازیابی گذرواژه"
 
@@ -264,7 +260,7 @@ msgstr "بله!"
 
 #: src/Pmpr/Package/Panel/REST/Setting.php:80
 #: src/Pmpr/Package/Panel/REST/Setting.php:186
-#: src/Pmpr/Package/Panel/Rewrite.php:197
+#: src/Pmpr/Package/Panel/Rewrite.php:193
 msgid "Loading..."
 msgstr "در حال بارگذاری..."
 
@@ -554,11 +550,11 @@ msgstr "دوباره امتحان می‌کنید؟"
 msgid "Click to retry"
 msgstr "برای تلاش دوباره کلیک کنید"
 
-#: src/Pmpr/Package/Panel/Rewrite.php:146
+#: src/Pmpr/Package/Panel/Rewrite.php:142
 msgid "Frontend Panel"
 msgstr "پنل فرانت"
 
-#: src/Pmpr/Package/Panel/Rewrite.php:199
+#: src/Pmpr/Package/Panel/Rewrite.php:195
 msgid ""
 "Looks like your browser not supporting js. please enable it or try with "
 "another browser"
@@ -656,10 +652,9 @@ msgid "Value of %s: %s"
 msgstr "مقدار %s: %s"
 
 #: src/Pmpr/Package/Panel/User.php:139
-#, fuzzy, php-format
-#| msgid "Verify"
+#, php-format
 msgid "Verify %s"
-msgstr "تایید مالکیت"
+msgstr "تایید %s"
 
 #: src/Pmpr/Package/Panel/User.php:175
 msgid "Information Verification"
@@ -702,7 +697,7 @@ msgstr "آواتار"
 #: src/Pmpr/Package/Panel/User.php:535
 #, php-format
 msgid "Accepted filetypes is %s"
-msgstr ""
+msgstr "فقط فایل‌های %s پذیرفته می‌شود"
 
 #: src/Pmpr/Package/Panel/User.php:539
 msgid "First Name"
