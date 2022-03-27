@@ -4,4 +4,4 @@
     |             62400f4cadc4e             |
     |_______________________________________|
 */
- use Pmpr\Module\Panel\Panel; Panel::symcgieuakksimmu();
+ namespace Pmpr\Module\Panel\Plugin\Woocommerce; class Download extends Common { }

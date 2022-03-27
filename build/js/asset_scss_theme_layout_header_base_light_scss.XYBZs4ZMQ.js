@@ -1,0 +1,2 @@
+/*! For license information please see asset_scss_theme_layout_header_base_light_scss.XYBZs4ZMQ.js.LICENSE.txt */
+(self.webpackChunkpmpr_wp_mod_panel=self.webpackChunkpmpr_wp_mod_panel||[]).push([["asset_scss_theme_layout_header_base_light_scss"],{3613:function(s,e,_){"use strict";_.r(e)}}]);

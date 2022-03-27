@@ -1,8 +1,8 @@
 {
-  "name": "pmpr-pkg/wp-pkg-panel",
+  "name": "pmpr-mod/wp-mod-panel",
   "type": "project",
   "license": "proprietary",
-  "description": "Vue Panel Package for Wordpress",
+  "description": "Vue Panel Module for Wordpress",
   "keywords": [
     "wordpress",
     "package",
@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Pmpr\\Package\\Panel\\": "src/Pmpr/Package/Panel"
+      "Pmpr\\Module\\Panel\\": "src/Pmpr/Module/Panel"
     },
     "files": [
       "index.php"
