@@ -8,21 +8,26 @@
             <td>{{ field.html|raw }}</td>
         </tr>
     {% endfor %}
-    {% for field in verifications %}
+    {% if verifications is not empty %}
         <tr>
-            <th>
-                <label for="{{ field.id|esc_attr }}">{{ field.label|raw }}</label>
-            </th>
-            <td>
-                <div class="d-flex">
-                    <div>
-                        {{ field.html|raw }}
-                    </div>
-                    <div class="my-auto">
-                        {{ field.value|raw }}
-                    </div>
-                </div>
+            <td class="p-0">
+                <h3>{{ verifications_title|raw }}</h3>
             </td>
         </tr>
-    {% endfor %}
+        {% for field in verifications %}
+            <tr>
+                <th>
+                    <label for="{{ field.id|esc_attr }}">{{ field.label|raw }}</label>
+                </th>
+                <td>
+                    <div class="mb-2">
+                        {{ field.html|raw }}
+                    </div>
+                    <div class="d-flex justify-content-between flex-column ml-0 ml-md-4">
+                        {{ field.value|raw }}
+                    </div>
+                </td>
+            </tr>
+        {% endfor %}
+    {% endif %}
 </table>
