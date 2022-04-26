@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Panel\n"
-"POT-Creation-Date: 2022-04-23 21:01+0430\n"
-"PO-Revision-Date: 2022-04-23 21:07+0430\n"
+"POT-Creation-Date: 2022-04-25 10:43+0430\n"
+"PO-Revision-Date: 2022-04-25 11:01+0430\n"
 "Last-Translator: Farshad Asgharzade <Farshad_asgharzade@hotmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -712,11 +712,6 @@ msgstr "اطلاعات کاربر"
 msgid "Avatar"
 msgstr "آواتار"
 
-#: src/Pmpr/Module/Panel/User.php:553
-#, php-format
-msgid "Accepted filetypes is %s"
-msgstr "فقط فایل‌های %s پذیرفته می‌شود"
-
 #: src/Pmpr/Module/Panel/User.php:557
 msgid "First Name"
 msgstr "نام"
@@ -764,6 +759,9 @@ msgstr "کارت ملی"
 #: src/Pmpr/Module/Panel/User.php:606
 msgid "Please upload your national card image"
 msgstr "لطفا تصویر کارت ملی خود را در این بخش قرار دهید"
+
+#~ msgid "Accepted filetypes is %s"
+#~ msgstr "فقط فایل‌های %s پذیرفته می‌شود"
 
 #~ msgid "Theme"
 #~ msgstr "پوسته"
