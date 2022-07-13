@@ -1,2 +1,0 @@
-/*! For license information please see asset_scss_theme_layout_header_menu_light_scss.pkJl9IFkA.js.LICENSE.txt */
-(self.webpackChunkpmpr_wp_mdl_panel=self.webpackChunkpmpr_wp_mdl_panel||[]).push([["asset_scss_theme_layout_header_menu_light_scss"],{5588:function(e,s,_){"use strict";_.r(s)}}]);
