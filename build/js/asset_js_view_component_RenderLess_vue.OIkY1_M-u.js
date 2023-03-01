@@ -1,2 +1,0 @@
-/*! For license information please see asset_js_view_component_RenderLess_vue.OIkY1_M-u.js.LICENSE.txt */
-"use strict";(self.webpackChunkpmpr_wp_mdl_panel=self.webpackChunkpmpr_wp_mdl_panel||[]).push([["asset_js_view_component_RenderLess_vue"],{8756:function(e,n,l){l.r(n),l.d(n,{default:function(){return p}});var u={name:"PanelRenderLess",render:()=>null},p=(0,l(9792).Z)(u,undefined,undefined,!1,null,null,null).exports}}]);
