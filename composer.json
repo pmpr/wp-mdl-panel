@@ -10,12 +10,12 @@
     "veu"
   ],
   "require": {
-    "php": ">=8.3",
+    "php": ">=8.2",
     "firebase/php-jwt": "v5.3.0",
     "pmpr-cmn/wp-cmn-foundation": "~1.4"
   },
   "prod-require": {
-    "php": "8.3",
+    "php": "8.2",
     "wordpress": "6.0",
     "wp-cmn-foundation": "latest"
   },
@@ -28,5 +28,5 @@
     ]
   },
   "minimum-stability": "dev",
-  "tag": "1.1.41"
+  "tag": "1.1.42"
 }
