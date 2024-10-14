@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66eae91609d34             |
+    |             670d4b3192dba             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Panel\Plugin\Woocommerce; class Download extends Common { }
+ namespace Pmpr\Module\Panel\Plugin\Woocommerce; use Pmpr\Module\Panel\Container; class Download extends Container { }
