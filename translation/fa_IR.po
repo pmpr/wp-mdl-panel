@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Panel\n"
-"POT-Creation-Date: 2025-01-12 13:16+0330\n"
-"PO-Revision-Date: 2025-01-12 13:16+0330\n"
+"POT-Creation-Date: 2025-01-23 15:22+0330\n"
+"PO-Revision-Date: 2025-01-23 15:22+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -37,23 +37,23 @@ msgstr[0] ""
 msgid "At %s"
 msgstr "در %s"
 
-#: src/Pmpr/Module/Panel/Plugin/Woocommerce/Woocommerce.php:122
+#: src/Pmpr/Module/Panel/Plugin/Woocommerce/Woocommerce.php:123
 msgid "Store"
 msgstr "فروشگاه"
 
-#: src/Pmpr/Module/Panel/Plugin/Woocommerce/Woocommerce.php:128
+#: src/Pmpr/Module/Panel/Plugin/Woocommerce/Woocommerce.php:129
 msgid "My Orders"
 msgstr "سفارش‌های من"
 
-#: src/Pmpr/Module/Panel/Plugin/Woocommerce/Woocommerce.php:130
+#: src/Pmpr/Module/Panel/Plugin/Woocommerce/Woocommerce.php:131
 msgid "List of your product orders."
 msgstr "لست محصولات سفارش داده شده توسط شما."
 
-#: src/Pmpr/Module/Panel/Plugin/Woocommerce/Woocommerce.php:134
+#: src/Pmpr/Module/Panel/Plugin/Woocommerce/Woocommerce.php:135
 msgid "My Downloads"
 msgstr "دانلود‌های من"
 
-#: src/Pmpr/Module/Panel/Plugin/Woocommerce/Woocommerce.php:136
+#: src/Pmpr/Module/Panel/Plugin/Woocommerce/Woocommerce.php:137
 msgid "List of your downloaded products."
 msgstr "لیست محصولات دانلودی شما."
 
@@ -728,8 +728,8 @@ msgid "User Info"
 msgstr "اطلاعات کاربر"
 
 #: src/Pmpr/Module/Panel/User.php:554
-msgid "Avatar"
-msgstr "آواتار"
+msgid "Face Picture"
+msgstr "تصویر چهره"
 
 #: src/Pmpr/Module/Panel/User.php:558
 msgid "First Name"
@@ -766,6 +766,9 @@ msgstr "کد ملی"
 #: src/Pmpr/Module/Panel/User.php:605
 msgid "National Card"
 msgstr "کارت ملی"
+
+#~ msgid "Avatar"
+#~ msgstr "آواتار"
 
 #~ msgid "Page"
 #~ msgstr "صفحه"
