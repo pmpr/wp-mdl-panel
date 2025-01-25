@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Panel\n"
-"POT-Creation-Date: 2025-01-23 15:22+0330\n"
-"PO-Revision-Date: 2025-01-23 15:22+0330\n"
+"POT-Creation-Date: 2025-01-25 16:55+0330\n"
+"PO-Revision-Date: 2025-01-25 16:55+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -263,7 +263,7 @@ msgid "Yes!"
 msgstr "بله!"
 
 #: src/Pmpr/Module/Panel/REST/Setting.php:73
-#: src/Pmpr/Module/Panel/REST/Setting.php:188
+#: src/Pmpr/Module/Panel/REST/Setting.php:189
 #: src/Pmpr/Module/Panel/Rewrite.php:217
 msgid "Loading..."
 msgstr "در حال بارگذاری..."
@@ -550,34 +550,38 @@ msgid "and %s more"
 msgstr "و %s مورد دیگر"
 
 #: src/Pmpr/Module/Panel/REST/Setting.php:187
+msgid "Select an option"
+msgstr ""
+
+#: src/Pmpr/Module/Panel/REST/Setting.php:188
 msgid "Type to search..."
 msgstr "برای شروع جستجو تایپ کنید..."
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:189
+#: src/Pmpr/Module/Panel/REST/Setting.php:190
 msgid "Clear all"
 msgstr "پاک کردن همه"
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:190
+#: src/Pmpr/Module/Panel/REST/Setting.php:191
 msgid "No options available."
 msgstr "هیچ گزینه‌ای وجود ندارد."
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:191
+#: src/Pmpr/Module/Panel/REST/Setting.php:192
 msgid "No results found..."
 msgstr "هیچ نتیجه‌ای یافت نشد..."
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:192
+#: src/Pmpr/Module/Panel/REST/Setting.php:193
 msgid "Clear value"
 msgstr "پاک کردن مقدار"
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:193
+#: src/Pmpr/Module/Panel/REST/Setting.php:194
 msgid "No sub-options."
 msgstr "هیچ زیر گزینه‌ای وجود ندارد."
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:195
+#: src/Pmpr/Module/Panel/REST/Setting.php:196
 msgid "Retry?"
 msgstr "دوباره امتحان می‌کنید؟"
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:196
+#: src/Pmpr/Module/Panel/REST/Setting.php:197
 msgid "Click to retry"
 msgstr "برای تلاش دوباره کلیک کنید"
 
