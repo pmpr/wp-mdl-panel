@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Panel\n"
-"POT-Creation-Date: 2025-01-25 16:55+0330\n"
-"PO-Revision-Date: 2025-01-25 16:55+0330\n"
+"POT-Creation-Date: 2025-01-26 22:23+0330\n"
+"PO-Revision-Date: 2025-01-26 22:23+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -22,7 +22,7 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: lib\n"
 "X-Poedit-SearchPathExcluded-1: *.js\n"
 
-#: src/Pmpr/Module/Panel/Panel.php:24 src/Pmpr/Module/Panel/Setting.php:34
+#: src/Pmpr/Module/Panel/Panel.php:24 src/Pmpr/Module/Panel/Setting.php:35
 msgid "Panel"
 msgstr "پنل"
 
@@ -63,7 +63,7 @@ msgstr ""
 
 #: src/Pmpr/Module/Panel/REST/Auth.php:232
 #: src/Pmpr/Module/Panel/REST/Setting.php:128
-#: src/Pmpr/Module/Panel/User.php:573
+#: src/Pmpr/Module/Panel/User.php:572
 msgid "Email"
 msgstr "ایمیل"
 
@@ -200,7 +200,7 @@ msgid "User"
 msgstr "کاربر"
 
 #: src/Pmpr/Module/Panel/REST/Router.php:52
-#: src/Pmpr/Module/Panel/Setting.php:105
+#: src/Pmpr/Module/Panel/Setting.php:106
 msgid "User Profile"
 msgstr "پروفایل کاربر"
 
@@ -597,87 +597,87 @@ msgstr ""
 "به نظر می‌رسد که مرورگر شما از جاوااسکریپت پشتیبانی نمی‌کند، لطفا این قابلیت "
 "را فعال کنید یا مرورگرتان را تغییر دهید"
 
-#: src/Pmpr/Module/Panel/Setting.php:35
+#: src/Pmpr/Module/Panel/Setting.php:36
 msgid "Panel Setting"
 msgstr "تنظیمات پنل"
 
-#: src/Pmpr/Module/Panel/Setting.php:46
+#: src/Pmpr/Module/Panel/Setting.php:47
 msgid "View"
 msgstr "مشاهده"
 
-#: src/Pmpr/Module/Panel/Setting.php:47
+#: src/Pmpr/Module/Panel/Setting.php:48
 msgid "View Configuration"
 msgstr ""
 
-#: src/Pmpr/Module/Panel/Setting.php:50
+#: src/Pmpr/Module/Panel/Setting.php:51
 msgid "General"
 msgstr "عمومی"
 
-#: src/Pmpr/Module/Panel/Setting.php:54
+#: src/Pmpr/Module/Panel/Setting.php:55
 msgid "Small Logo"
 msgstr "لوگو کوچک"
 
-#: src/Pmpr/Module/Panel/Setting.php:57
+#: src/Pmpr/Module/Panel/Setting.php:58
 msgid "Side Logo"
 msgstr "لوگو سایدبار"
 
-#: src/Pmpr/Module/Panel/Setting.php:60
+#: src/Pmpr/Module/Panel/Setting.php:61
 msgid "Show Admin To"
 msgstr "نمایش ادمین بار به"
 
-#: src/Pmpr/Module/Panel/Setting.php:66
+#: src/Pmpr/Module/Panel/Setting.php:67
 msgid "Configs"
 msgstr "پیکربندی"
 
-#: src/Pmpr/Module/Panel/Setting.php:70
+#: src/Pmpr/Module/Panel/Setting.php:71
 msgid "Authentication Page"
 msgstr "صفحه احراز هویت"
 
-#: src/Pmpr/Module/Panel/Setting.php:74
-msgid "Text Color"
-msgstr "رنگ متن"
+#: src/Pmpr/Module/Panel/Setting.php:75
+msgid "Image"
+msgstr ""
 
-#: src/Pmpr/Module/Panel/Setting.php:78
+#: src/Pmpr/Module/Panel/Setting.php:79
 msgid "Background Color"
 msgstr ""
 
-#: src/Pmpr/Module/Panel/Setting.php:83
+#: src/Pmpr/Module/Panel/Setting.php:84
 msgid "Footer"
 msgstr "پاورقی"
 
-#: src/Pmpr/Module/Panel/Setting.php:87
+#: src/Pmpr/Module/Panel/Setting.php:88
 msgid "Footer Text"
 msgstr "متن پاورقی"
 
-#: src/Pmpr/Module/Panel/Setting.php:91
+#: src/Pmpr/Module/Panel/Setting.php:92
 msgid "Footer Links"
 msgstr "لینک‌های پاورقی"
 
-#: src/Pmpr/Module/Panel/Setting.php:92
+#: src/Pmpr/Module/Panel/Setting.php:93
 msgid "We show selected page as Link in footer after contact information."
 msgstr ""
 
-#: src/Pmpr/Module/Panel/Setting.php:107
+#: src/Pmpr/Module/Panel/Setting.php:108
 msgid "User Profile Configuration"
 msgstr "پیکربندی پروفایل کاربر"
 
-#: src/Pmpr/Module/Panel/Setting.php:111
+#: src/Pmpr/Module/Panel/Setting.php:112
 msgid "Personal Fields Configuration"
 msgstr "پیکربندی فیلد‌های اطلاعات شخصی"
 
-#: src/Pmpr/Module/Panel/Setting.php:114
+#: src/Pmpr/Module/Panel/Setting.php:115
 msgid "Ignore Fields"
 msgstr ""
 
-#: src/Pmpr/Module/Panel/Setting.php:119
+#: src/Pmpr/Module/Panel/Setting.php:120
 msgid "Require Fields"
 msgstr "فیلدهای ضروری"
 
-#: src/Pmpr/Module/Panel/Setting.php:124
+#: src/Pmpr/Module/Panel/Setting.php:125
 msgid "Verifiable Fields"
 msgstr "فیلد‌های نیاز به احراز هویت"
 
-#: src/Pmpr/Module/Panel/Setting.php:129
+#: src/Pmpr/Module/Panel/Setting.php:130
 msgid "User Preview Data"
 msgstr "داده‌های پیش نمایشی"
 
@@ -727,49 +727,64 @@ msgstr "پیوندی که وارد کرده‌اید معتبر نیست"
 msgid "The Email you entered is not valid"
 msgstr "ایمیلی که وارد کرده‌اید معتبر نیست"
 
-#: src/Pmpr/Module/Panel/User.php:551
+#: src/Pmpr/Module/Panel/User.php:550
 msgid "User Info"
 msgstr "اطلاعات کاربر"
 
-#: src/Pmpr/Module/Panel/User.php:554
+#: src/Pmpr/Module/Panel/User.php:553
 msgid "Face Picture"
 msgstr "تصویر چهره"
 
-#: src/Pmpr/Module/Panel/User.php:558
+#: src/Pmpr/Module/Panel/User.php:557
 msgid "First Name"
 msgstr "نام"
 
-#: src/Pmpr/Module/Panel/User.php:562
+#: src/Pmpr/Module/Panel/User.php:561
 msgid "Last Name"
 msgstr "نام خانوادگی"
 
-#: src/Pmpr/Module/Panel/User.php:566
+#: src/Pmpr/Module/Panel/User.php:565
 msgid "Nick Name"
 msgstr "نام مستعار"
 
-#: src/Pmpr/Module/Panel/User.php:570
+#: src/Pmpr/Module/Panel/User.php:569
 msgid "Contact Info"
 msgstr "اطلاعات تماس"
 
-#: src/Pmpr/Module/Panel/User.php:578
+#: src/Pmpr/Module/Panel/User.php:577
 msgid "Website"
 msgstr "وب سایت"
 
-#: src/Pmpr/Module/Panel/User.php:593
+#: src/Pmpr/Module/Panel/User.php:592
 msgid "Mobile"
 msgstr "موبایل"
 
-#: src/Pmpr/Module/Panel/User.php:597
+#: src/Pmpr/Module/Panel/User.php:596
+msgid "Address Information"
+msgstr "اطلاعات آدرس"
+
+#: src/Pmpr/Module/Panel/User.php:599
+msgid "Address"
+msgstr "آدرس"
+
+#: src/Pmpr/Module/Panel/User.php:602
+msgid "Postal Code"
+msgstr "کد پستی"
+
+#: src/Pmpr/Module/Panel/User.php:606
 msgid "Verification Information"
 msgstr "اطلاعات احراز هویت"
 
-#: src/Pmpr/Module/Panel/User.php:600
+#: src/Pmpr/Module/Panel/User.php:609
 msgid "National Code"
 msgstr "کد ملی"
 
-#: src/Pmpr/Module/Panel/User.php:605
+#: src/Pmpr/Module/Panel/User.php:614
 msgid "National Card"
 msgstr "کارت ملی"
+
+#~ msgid "Text Color"
+#~ msgstr "رنگ متن"
 
 #~ msgid "Avatar"
 #~ msgstr "آواتار"
@@ -813,9 +828,6 @@ msgstr "کارت ملی"
 
 #~ msgid "URL"
 #~ msgstr "پیوند"
-
-#~ msgid "Email Address"
-#~ msgstr "ایمیل"
 
 #~ msgid "The entered value is not a valid email address"
 #~ msgstr "ایمیلی که وارد کرده‌اید معتبر نیست"
