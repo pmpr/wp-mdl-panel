@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Panel\n"
-"POT-Creation-Date: 2025-01-29 16:07+0330\n"
-"PO-Revision-Date: 2025-01-29 16:07+0330\n"
+"POT-Creation-Date: 2025-02-13 15:14+0330\n"
+"PO-Revision-Date: 2025-02-13 15:14+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -22,7 +22,7 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: lib\n"
 "X-Poedit-SearchPathExcluded-1: *.js\n"
 
-#: src/Pmpr/Module/Panel/Panel.php:24 src/Pmpr/Module/Panel/Setting.php:35
+#: src/Pmpr/Module/Panel/Panel.php:23 src/Pmpr/Module/Panel/Setting.php:35
 msgid "Panel"
 msgstr "پنل"
 
@@ -194,55 +194,55 @@ msgstr "گذرواژه جدید"
 msgid "Verify Password"
 msgstr "تایید گذرواژه"
 
-#: src/Pmpr/Module/Panel/REST/Router.php:48
-#: src/Pmpr/Module/Panel/REST/Setting.php:171
+#: src/Pmpr/Module/Panel/REST/Router.php:49
+#: src/Pmpr/Module/Panel/REST/Setting.php:169
 msgid "User"
 msgstr "کاربر"
 
-#: src/Pmpr/Module/Panel/REST/Router.php:52
+#: src/Pmpr/Module/Panel/REST/Router.php:53
 #: src/Pmpr/Module/Panel/Setting.php:106
 msgid "User Profile"
 msgstr "پروفایل کاربر"
 
-#: src/Pmpr/Module/Panel/REST/Router.php:57
+#: src/Pmpr/Module/Panel/REST/Router.php:58
 msgid "Personal Information"
 msgstr "اطلاعات شخصی"
 
-#: src/Pmpr/Module/Panel/REST/Router.php:58
+#: src/Pmpr/Module/Panel/REST/Router.php:59
 msgid "Update your personal information"
 msgstr "به روزرسانی اطلاعات شخصی"
 
-#: src/Pmpr/Module/Panel/REST/Router.php:62
+#: src/Pmpr/Module/Panel/REST/Router.php:63
 msgid "User Account"
 msgstr "حساب کاربری"
 
-#: src/Pmpr/Module/Panel/REST/Router.php:64
+#: src/Pmpr/Module/Panel/REST/Router.php:65
 msgid "See your account information"
 msgstr "مشاهده اطلاعات حساب"
 
-#: src/Pmpr/Module/Panel/REST/Router.php:68
+#: src/Pmpr/Module/Panel/REST/Router.php:69
 msgid "Change Password"
 msgstr "تغییر گذرواژه"
 
-#: src/Pmpr/Module/Panel/REST/Router.php:70
+#: src/Pmpr/Module/Panel/REST/Router.php:71
 msgid "Change your account password"
 msgstr "تغییر گذرواژه حساب شما"
 
-#: src/Pmpr/Module/Panel/REST/Router.php:80
+#: src/Pmpr/Module/Panel/REST/Router.php:81
 #: src/Pmpr/Module/Panel/REST/Setting.php:117
 msgid "Authentication"
 msgstr "احراز هویت"
 
-#: src/Pmpr/Module/Panel/REST/Router.php:84
+#: src/Pmpr/Module/Panel/REST/Router.php:85
 #: src/Pmpr/Module/Panel/REST/Setting.php:118
 msgid "Login to Account"
 msgstr "ورود به حساب کاربری"
 
-#: src/Pmpr/Module/Panel/REST/Router.php:89
+#: src/Pmpr/Module/Panel/REST/Router.php:90
 msgid "Register An Account"
 msgstr "ایجاد حساب یک کاربری"
 
-#: src/Pmpr/Module/Panel/REST/Router.php:94
+#: src/Pmpr/Module/Panel/REST/Router.php:95
 msgid "Forgot My Password"
 msgstr "بازیابی گذرواژه"
 
@@ -263,7 +263,7 @@ msgid "Yes!"
 msgstr "بله!"
 
 #: src/Pmpr/Module/Panel/REST/Setting.php:73
-#: src/Pmpr/Module/Panel/REST/Setting.php:190
+#: src/Pmpr/Module/Panel/REST/Setting.php:192
 #: src/Pmpr/Module/Panel/Rewrite.php:217
 msgid "Loading..."
 msgstr "در حال بارگذاری..."
@@ -485,107 +485,115 @@ msgid "Forget Password"
 msgstr "بازیابی گذرواژه"
 
 #: src/Pmpr/Module/Panel/REST/Setting.php:165
-msgid "Price"
-msgstr "قیمت"
-
-#: src/Pmpr/Module/Panel/REST/Setting.php:166
-msgid "Actions"
-msgstr "عملیات"
-
-#: src/Pmpr/Module/Panel/REST/Setting.php:167
 msgid "Url"
 msgstr "پیوند"
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:168
+#: src/Pmpr/Module/Panel/REST/Setting.php:166
 msgid "Type"
 msgstr "نوع"
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:169
+#: src/Pmpr/Module/Panel/REST/Setting.php:167
 msgid "Name"
 msgstr "نام"
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:170
+#: src/Pmpr/Module/Panel/REST/Setting.php:168
 msgid "Date"
 msgstr "تاریخ"
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:172
+#: src/Pmpr/Module/Panel/REST/Setting.php:170
 msgid "Title"
 msgstr "عنوان"
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:173
-msgid "Created At"
-msgstr "تاریخ ایجاد"
+#: src/Pmpr/Module/Panel/REST/Setting.php:171
+msgid "Price"
+msgstr "قیمت"
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:174
+#: src/Pmpr/Module/Panel/REST/Setting.php:172
 msgid "Status"
 msgstr "وضعیت"
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:175
+#: src/Pmpr/Module/Panel/REST/Setting.php:173
+msgid "Author"
+msgstr "نویسنده"
+
+#: src/Pmpr/Module/Panel/REST/Setting.php:174
 msgid "Product"
 msgstr "محصول"
 
+#: src/Pmpr/Module/Panel/REST/Setting.php:175
+msgid "Actions"
+msgstr "عملیات"
+
 #: src/Pmpr/Module/Panel/REST/Setting.php:176
+msgid "Created At"
+msgstr "تاریخ ایجاد"
+
+#: src/Pmpr/Module/Panel/REST/Setting.php:177
 msgid "Capability"
 msgstr "دسترسی"
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:179
+#: src/Pmpr/Module/Panel/REST/Setting.php:178
+msgid "Published At"
+msgstr "تاریخ انتشار"
+
+#: src/Pmpr/Module/Panel/REST/Setting.php:181
 #, php-format
 msgid "%s is not valid"
 msgstr "%s معتبر نیست"
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:180
+#: src/Pmpr/Module/Panel/REST/Setting.php:182
 #, php-format
 msgid "%s is required"
 msgstr "فیلد %s ضروری است"
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:181
+#: src/Pmpr/Module/Panel/REST/Setting.php:183
 #, php-format
 msgid "%s minimum length is %s"
 msgstr ""
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:184
+#: src/Pmpr/Module/Panel/REST/Setting.php:186
 #, php-format
 msgid "Displaying %s to %s of %s items"
 msgstr "نمایش %s تا %s از %s مورد"
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:187
+#: src/Pmpr/Module/Panel/REST/Setting.php:189
 #, php-format
 msgid "and %s more"
 msgstr "و %s مورد دیگر"
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:188
+#: src/Pmpr/Module/Panel/REST/Setting.php:190
 msgid "Select an option"
 msgstr ""
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:189
+#: src/Pmpr/Module/Panel/REST/Setting.php:191
 msgid "Type to search..."
 msgstr "برای شروع جستجو تایپ کنید..."
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:191
+#: src/Pmpr/Module/Panel/REST/Setting.php:193
 msgid "Clear all"
 msgstr "پاک کردن همه"
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:192
+#: src/Pmpr/Module/Panel/REST/Setting.php:194
 msgid "No options available."
 msgstr "هیچ گزینه‌ای وجود ندارد."
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:193
+#: src/Pmpr/Module/Panel/REST/Setting.php:195
 msgid "No results found..."
 msgstr "هیچ نتیجه‌ای یافت نشد..."
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:194
+#: src/Pmpr/Module/Panel/REST/Setting.php:196
 msgid "Clear value"
 msgstr "پاک کردن مقدار"
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:195
+#: src/Pmpr/Module/Panel/REST/Setting.php:197
 msgid "No sub-options."
 msgstr "هیچ زیر گزینه‌ای وجود ندارد."
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:197
+#: src/Pmpr/Module/Panel/REST/Setting.php:199
 msgid "Retry?"
 msgstr "دوباره امتحان می‌کنید؟"
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:198
+#: src/Pmpr/Module/Panel/REST/Setting.php:200
 msgid "Click to retry"
 msgstr "برای تلاش دوباره کلیک کنید"
 
