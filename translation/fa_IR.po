@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Panel\n"
-"POT-Creation-Date: 2025-02-13 15:14+0330\n"
-"PO-Revision-Date: 2025-02-13 15:14+0330\n"
+"POT-Creation-Date: 2025-02-23 18:51+0330\n"
+"PO-Revision-Date: 2025-02-23 18:51+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -63,7 +63,7 @@ msgstr ""
 
 #: src/Pmpr/Module/Panel/REST/Auth.php:232
 #: src/Pmpr/Module/Panel/REST/Setting.php:129
-#: src/Pmpr/Module/Panel/User.php:568
+#: src/Pmpr/Module/Panel/User.php:577
 msgid "Email"
 msgstr "ایمیل"
 
@@ -713,85 +713,89 @@ msgstr "اطلاعات احراز هویت"
 msgid "Verifiable fields"
 msgstr "فیلد‌های نیاز به احراز هویت"
 
-#: src/Pmpr/Module/Panel/User.php:342
+#: src/Pmpr/Module/Panel/User.php:347
 #, php-format
 msgid "%s is not a valid %s"
 msgstr "%s یک %s معتبر نیست"
 
-#: src/Pmpr/Module/Panel/User.php:354
+#: src/Pmpr/Module/Panel/User.php:359
 msgid "failed update profile:"
 msgstr "شکست در به روز رسانی پروفایل:"
 
-#: src/Pmpr/Module/Panel/User.php:366
+#: src/Pmpr/Module/Panel/User.php:371
 msgid "There is nothing for update"
 msgstr "چیزی برای به روزرسانی وجود ندارد"
 
-#: src/Pmpr/Module/Panel/User.php:393
+#: src/Pmpr/Module/Panel/User.php:398
 #, php-format
 msgid "%s is a require field"
 msgstr "فیلد %s ضروری است"
 
-#: src/Pmpr/Module/Panel/User.php:404
+#: src/Pmpr/Module/Panel/User.php:409
 msgid "The Url you entered is not valid"
 msgstr "پیوندی که وارد کرده‌اید معتبر نیست"
 
-#: src/Pmpr/Module/Panel/User.php:410
+#: src/Pmpr/Module/Panel/User.php:415
 msgid "The Email you entered is not valid"
 msgstr "ایمیلی که وارد کرده‌اید معتبر نیست"
 
-#: src/Pmpr/Module/Panel/User.php:546
+#: src/Pmpr/Module/Panel/User.php:551
 msgid "User Info"
 msgstr "اطلاعات کاربر"
 
-#: src/Pmpr/Module/Panel/User.php:549
+#: src/Pmpr/Module/Panel/User.php:554
 msgid "Face Picture"
 msgstr "تصویر چهره"
 
-#: src/Pmpr/Module/Panel/User.php:553
+#: src/Pmpr/Module/Panel/User.php:558
 msgid "First Name"
 msgstr "نام"
 
-#: src/Pmpr/Module/Panel/User.php:557
+#: src/Pmpr/Module/Panel/User.php:562
 msgid "Last Name"
 msgstr "نام خانوادگی"
 
-#: src/Pmpr/Module/Panel/User.php:561
+#: src/Pmpr/Module/Panel/User.php:566
 msgid "Nick Name"
 msgstr "نام مستعار"
 
-#: src/Pmpr/Module/Panel/User.php:565
+#: src/Pmpr/Module/Panel/User.php:570
+msgid "Description about yourself"
+msgstr "شرحی در مورد خودتان"
+
+#: src/Pmpr/Module/Panel/User.php:574
 msgid "Contact Info"
 msgstr "اطلاعات تماس"
 
-#: src/Pmpr/Module/Panel/User.php:573
+#: src/Pmpr/Module/Panel/User.php:582
 msgid "Website"
 msgstr "وب سایت"
 
-#: src/Pmpr/Module/Panel/User.php:588
+#: src/Pmpr/Module/Panel/User.php:597
 msgid "Mobile"
 msgstr "موبایل"
 
-#: src/Pmpr/Module/Panel/User.php:592
+#: src/Pmpr/Module/Panel/User.php:601
 msgid "Address Information"
 msgstr "اطلاعات آدرس"
 
-#: src/Pmpr/Module/Panel/User.php:595
+#: src/Pmpr/Module/Panel/User.php:604
 msgid "Address"
 msgstr "آدرس"
 
-#: src/Pmpr/Module/Panel/User.php:599
+#: src/Pmpr/Module/Panel/User.php:608
 msgid "Postal Code"
 msgstr "کد پستی"
 
-#: src/Pmpr/Module/Panel/User.php:603
+#: src/Pmpr/Module/Panel/User.php:612
 msgid "Verification Information"
 msgstr "اطلاعات احراز هویت"
 
-#: src/Pmpr/Module/Panel/User.php:606
+#: src/Pmpr/Module/Panel/User.php:615
 msgid "National Code"
 msgstr "کد ملی"
 
-#: src/Pmpr/Module/Panel/User.php:611
+#: src/Pmpr/Module/Panel/User.php:620
 msgid "National Card"
 msgstr "کارت ملی"
 
