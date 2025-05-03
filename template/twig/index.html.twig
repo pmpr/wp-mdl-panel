@@ -15,6 +15,9 @@
         </noscript>
         <div id="app">
           <div class="page-loader page-loader-logo" v-if="isShow">
+              {% if logo_url is not empty %}
+                <img src="{{ logo_url|esc_attr }}" class="img-fluid mx-auto" width="50px" alt="logo">
+              {% endif %}
             <div class="spinner spinner-primary spinner-lg" :class="`spinner-${size}`"></div>
           </div>
         </div>
