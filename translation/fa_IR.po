@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Panel\n"
-"POT-Creation-Date: 2025-05-04 13:28+0330\n"
-"PO-Revision-Date: 2025-05-04 13:28+0330\n"
+"POT-Creation-Date: 2025-05-04 15:03+0330\n"
+"PO-Revision-Date: 2025-05-04 15:04+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -22,7 +22,11 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: lib\n"
 "X-Poedit-SearchPathExcluded-1: *.js\n"
 
-#: src/Pmpr/Module/Panel/Panel.php:23 src/Pmpr/Module/Panel/Setting.php:34
+#: src/Pmpr/Module/Panel/Ajax.php:27
+msgid "User is not login."
+msgstr "کاربر وارد سیستم نشده است."
+
+#: src/Pmpr/Module/Panel/Panel.php:24 src/Pmpr/Module/Panel/Setting.php:34
 msgid "Panel"
 msgstr "پنل"
 
@@ -66,8 +70,11 @@ msgid "can not found requested fields."
 msgstr ""
 
 #: src/Pmpr/Module/Panel/REST/Auth.php:255
-msgid "Email or Username"
-msgstr "ایمیل یا نام کاربری"
+#: src/Pmpr/Module/Panel/REST/Setting.php:134
+#: src/Pmpr/Module/Panel/REST/Setting.php:161
+#: src/Pmpr/Module/Panel/User.php:584
+msgid "Email"
+msgstr "ایمیل"
 
 #: src/Pmpr/Module/Panel/REST/Auth.php:277
 msgid "Enter Your Password"
@@ -120,28 +127,28 @@ msgstr "داده‌های وارد شده معتبر نمی‌باشد."
 msgid "Can not login now, please try later."
 msgstr ""
 
-#: src/Pmpr/Module/Panel/REST/Auth.php:592
-#: src/Pmpr/Module/Panel/REST/Common.php:103
-msgid "JWT is not configured properly."
-msgstr ""
-
-#: src/Pmpr/Module/Panel/REST/Common.php:90
+#: src/Pmpr/Module/Panel/REST/Common.php:93
 msgid "User ID not found in the token"
 msgstr ""
 
-#: src/Pmpr/Module/Panel/REST/Common.php:94
+#: src/Pmpr/Module/Panel/REST/Common.php:97
 msgid "The iss do not match with this server"
 msgstr ""
 
-#: src/Pmpr/Module/Panel/REST/Common.php:107
+#: src/Pmpr/Module/Panel/REST/Common.php:106
+#: src/Pmpr/Module/Panel/Traits/TokenTrait.php:49
+msgid "JWT is not configured properly."
+msgstr ""
+
+#: src/Pmpr/Module/Panel/REST/Common.php:110
 msgid "Authorization header malformed."
 msgstr ""
 
-#: src/Pmpr/Module/Panel/REST/Common.php:111
+#: src/Pmpr/Module/Panel/REST/Common.php:114
 msgid "Authorization header not found"
 msgstr ""
 
-#: src/Pmpr/Module/Panel/REST/Common.php:131
+#: src/Pmpr/Module/Panel/REST/Common.php:134
 msgid "User not found"
 msgstr "کاربر مورد نظر یافت نشد"
 
@@ -228,7 +235,7 @@ msgstr "بله!"
 
 #: src/Pmpr/Module/Panel/REST/Setting.php:74
 #: src/Pmpr/Module/Panel/REST/Setting.php:221
-#: src/Pmpr/Module/Panel/Rewrite.php:224
+#: src/Pmpr/Module/Panel/Rewrite.php:229
 msgid "Loading..."
 msgstr "در حال بارگذاری..."
 
@@ -398,12 +405,6 @@ msgstr "رمز عبور نمی‌تواند خالی باشد."
 #: src/Pmpr/Module/Panel/REST/Setting.php:129
 msgid "Your entered value is not a email address."
 msgstr "مقداری که وارد کرده‌اید یک ایمیل معتبر نیست."
-
-#: src/Pmpr/Module/Panel/REST/Setting.php:134
-#: src/Pmpr/Module/Panel/REST/Setting.php:161
-#: src/Pmpr/Module/Panel/User.php:584
-msgid "Email"
-msgstr "ایمیل"
 
 #: src/Pmpr/Module/Panel/REST/Setting.php:135
 #: src/Pmpr/Module/Panel/REST/Setting.php:162
@@ -621,11 +622,11 @@ msgstr "خروجی درخواستی شما معتبر نیست."
 msgid "Requested attachment not found."
 msgstr ""
 
-#: src/Pmpr/Module/Panel/Rewrite.php:165
+#: src/Pmpr/Module/Panel/Rewrite.php:169
 msgid "Frontend Panel"
 msgstr "پنل فرانت"
 
-#: src/Pmpr/Module/Panel/Rewrite.php:226
+#: src/Pmpr/Module/Panel/Rewrite.php:231
 msgid ""
 "Looks like your browser not supporting js. please enable it or try with "
 "another browser"
@@ -820,6 +821,9 @@ msgstr "کد ملی"
 #: src/Pmpr/Module/Panel/User.php:627
 msgid "National Card"
 msgstr "کارت ملی"
+
+#~ msgid "Email or Username"
+#~ msgstr "ایمیل یا نام کاربری"
 
 #~ msgid "Email or Mobile"
 #~ msgstr "ایمیل یا شماره موبایل"
