@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Panel\n"
-"POT-Creation-Date: 2025-05-06 09:43+0330\n"
-"PO-Revision-Date: 2025-05-06 09:44+0330\n"
+"POT-Creation-Date: 2025-05-07 19:38+0330\n"
+"PO-Revision-Date: 2025-05-07 19:39+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -25,6 +25,14 @@ msgstr ""
 #: src/Pmpr/Module/Panel/Ajax.php:27
 msgid "User is not login."
 msgstr "کاربر وارد سیستم نشده است."
+
+#: src/Pmpr/Module/Panel/Email.php:17
+msgid "Panel Forgot Password"
+msgstr "فراموشی رمز عبور پنل"
+
+#: src/Pmpr/Module/Panel/Email.php:18
+msgid "Configure Forgot Password"
+msgstr "پیکربندی فراموشی رمز عبور"
 
 #: src/Pmpr/Module/Panel/Panel.php:24 src/Pmpr/Module/Panel/Setting.php:32
 msgid "Panel"
@@ -174,7 +182,7 @@ msgid "Cannot send the code right now. Please try again later."
 msgstr "در حال حاضر امکان ارسال کد وجود ندارد. لطفاً بعداً دوباره تلاش کنید."
 
 #: src/Pmpr/Module/Panel/REST/Auth.php:506
-#: src/Pmpr/Module/Panel/REST/Auth.php:652
+#: src/Pmpr/Module/Panel/REST/Auth.php:651
 msgid ""
 "Something went wrong, We can't send the code right now. Please contact us."
 msgstr ""
@@ -182,7 +190,7 @@ msgstr ""
 "بگیرید."
 
 #: src/Pmpr/Module/Panel/REST/Auth.php:510
-#: src/Pmpr/Module/Panel/REST/Auth.php:581
+#: src/Pmpr/Module/Panel/REST/Auth.php:580
 msgid "Entered values is not valid."
 msgstr "داده‌های وارد شده معتبر نمی‌باشد."
 
@@ -214,15 +222,15 @@ msgstr "نام وارد شده قبلا گرفته شده است، لطفا نا
 msgid "Passwords are not same."
 msgstr "رمزهای وارد شده مثل هم نیستند."
 
-#: src/Pmpr/Module/Panel/REST/Auth.php:571
+#: src/Pmpr/Module/Panel/REST/Auth.php:570
 msgid "Your account created successfully."
 msgstr "حساب کاربری شما با موفقیت ایجاد شد."
 
-#: src/Pmpr/Module/Panel/REST/Auth.php:574
+#: src/Pmpr/Module/Panel/REST/Auth.php:573
 msgid "User not found."
 msgstr "کاربر مورد نظر یافت نشد."
 
-#: src/Pmpr/Module/Panel/REST/Auth.php:669
+#: src/Pmpr/Module/Panel/REST/Auth.php:668
 msgid "Can not login now, please try later."
 msgstr ""
 "در حال حاضر قادر به ورود به حساب کاربری نیستید، لطفا بعدا دوباره تلاش کنید."
