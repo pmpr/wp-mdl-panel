@@ -7,7 +7,7 @@
         <title>{{ title|raw }}</title>
         <meta name="description" content="{{ description|raw }}">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vazir-font/27.2.2/font-face.css">
-        {{ do_action('panel_head'|generate_hook) }}
+        {{ pmpr_do_action('panel_head') }}
     </head>
     <body class="{{ body_class|raw }}">
         <noscript>
@@ -22,13 +22,11 @@
           </div>
         </div>
         <script>
-            window.ajaxURL                  = '{{ ajax_url|raw }}';
-            window.iconSet                  = '{{ icon_set|raw }}';
-            window.externalSiteURL          = '{{ site_url|raw }}';
-            window.externalPublicPath       = '{{ public_path|raw }}';
-            window.externalIconsPublicPath  = '{{ icons_public_path|raw }}';
+            {% for config, value in inline_config %}
+                window.{{ config|raw }} = '{{ value|raw }}';
+            {% endfor%}
         </script>
-        {{ do_action('panel_footer'|generate_hook) }}
+        {{ pmpr_do_action('panel_footer') }}
     </body>
 </html>
 
