@@ -1,0 +1,2 @@
+/*! For license information please see asset_scss_theme_layout_header_base_dark_scss.xi4_43zdb.js.LICENSE.txt */
+"use strict";(self.webpackChunkpmpr_wp_mdl_panel=self.webpackChunkpmpr_wp_mdl_panel||[]).push([["asset_scss_theme_layout_header_base_dark_scss"],{9194:function(s,e,_){_.r(e)}}]);
