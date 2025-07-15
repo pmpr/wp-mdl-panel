@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Panel\n"
-"POT-Creation-Date: 2025-06-30 14:44+0330\n"
-"PO-Revision-Date: 2025-06-30 14:44+0330\n"
+"POT-Creation-Date: 2025-07-15 13:00+0330\n"
+"PO-Revision-Date: 2025-07-15 13:03+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -85,7 +85,7 @@ msgstr ""
 #: src/Pmpr/Module/Panel/REST/Auth.php:350
 #: src/Pmpr/Module/Panel/REST/Setting.php:127
 #: src/Pmpr/Module/Panel/REST/Setting.php:141
-#: src/Pmpr/Module/Panel/REST/Setting.php:168 src/Pmpr/Module/Panel/User.php:572
+#: src/Pmpr/Module/Panel/REST/Setting.php:168 src/Pmpr/Module/Panel/User.php:573
 msgid "Email"
 msgstr "ایمیل"
 
@@ -236,28 +236,28 @@ msgid "Can not login now, please try later."
 msgstr ""
 "در حال حاضر قادر به ورود به حساب کاربری نیستید، لطفا بعدا دوباره تلاش کنید."
 
-#: src/Pmpr/Module/Panel/REST/Common.php:93
+#: src/Pmpr/Module/Panel/REST/Common.php:92
 msgid "User ID not found in the token"
 msgstr ""
 
-#: src/Pmpr/Module/Panel/REST/Common.php:97
+#: src/Pmpr/Module/Panel/REST/Common.php:96
 msgid "The iss do not match with this server"
 msgstr ""
 
-#: src/Pmpr/Module/Panel/REST/Common.php:106
-#: src/Pmpr/Module/Panel/Traits/TokenTrait.php:49
+#: src/Pmpr/Module/Panel/REST/Common.php:105
+#: src/Pmpr/Module/Panel/Traits/TokenTrait.php:50
 msgid "JWT is not configured properly."
 msgstr ""
 
-#: src/Pmpr/Module/Panel/REST/Common.php:110
+#: src/Pmpr/Module/Panel/REST/Common.php:109
 msgid "Authorization header malformed."
 msgstr ""
 
-#: src/Pmpr/Module/Panel/REST/Common.php:114
+#: src/Pmpr/Module/Panel/REST/Common.php:113
 msgid "Authorization header not found"
 msgstr ""
 
-#: src/Pmpr/Module/Panel/REST/Common.php:134
+#: src/Pmpr/Module/Panel/REST/Common.php:133
 msgid "User not found"
 msgstr "کاربر مورد نظر یافت نشد"
 
@@ -507,7 +507,7 @@ msgstr "ورود به حساب کاربری"
 msgid "After Check your %s, select the login mode."
 msgstr "بعد از بررسی %s خود، نوع ورود را مشخص کنید."
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:128 src/Pmpr/Module/Panel/User.php:592
+#: src/Pmpr/Module/Panel/REST/Setting.php:128 src/Pmpr/Module/Panel/User.php:593
 msgid "Mobile"
 msgstr "موبایل"
 
@@ -525,10 +525,8 @@ msgid "Your entered email is not valid."
 msgstr "ایمیلی که وارد کرده‌اید معتبر نیست."
 
 #: src/Pmpr/Module/Panel/REST/Setting.php:133
-#, fuzzy
-#| msgid "Your entered email is not valid."
 msgid "Your entered mobile is not valid."
-msgstr "ایمیلی که وارد کرده‌اید معتبر نیست."
+msgstr "موبایل وارد شده معتبر نیست."
 
 #: src/Pmpr/Module/Panel/REST/Setting.php:134
 msgid "Your OTP is expired, please press resend button."
@@ -751,7 +749,7 @@ msgstr "پیوست درخواستی شما یافت نشد."
 
 #: src/Pmpr/Module/Panel/Rewrite.php:169
 msgid "Frontend Panel"
-msgstr "پنل فرانت"
+msgstr "پنل کاربری"
 
 #: src/Pmpr/Module/Panel/Rewrite.php:251
 msgid ""
@@ -919,43 +917,43 @@ msgstr "نام خانوادگی"
 msgid "Nick Name"
 msgstr "نام مستعار"
 
-#: src/Pmpr/Module/Panel/User.php:561
+#: src/Pmpr/Module/Panel/User.php:562
 msgid "Birthday"
 msgstr "تاریخ تولد"
 
-#: src/Pmpr/Module/Panel/User.php:565
+#: src/Pmpr/Module/Panel/User.php:566
 msgid "Description about yourself"
 msgstr "شرحی در مورد خودتان"
 
-#: src/Pmpr/Module/Panel/User.php:569
+#: src/Pmpr/Module/Panel/User.php:570
 msgid "Contact Info"
 msgstr "اطلاعات تماس"
 
-#: src/Pmpr/Module/Panel/User.php:577
+#: src/Pmpr/Module/Panel/User.php:578
 msgid "Website"
 msgstr "وب سایت"
 
-#: src/Pmpr/Module/Panel/User.php:596
+#: src/Pmpr/Module/Panel/User.php:597
 msgid "Address Information"
 msgstr "اطلاعات آدرس"
 
-#: src/Pmpr/Module/Panel/User.php:599
+#: src/Pmpr/Module/Panel/User.php:600
 msgid "Address"
 msgstr "آدرس"
 
-#: src/Pmpr/Module/Panel/User.php:603
+#: src/Pmpr/Module/Panel/User.php:604
 msgid "Postal Code"
 msgstr "کد پستی"
 
-#: src/Pmpr/Module/Panel/User.php:607
+#: src/Pmpr/Module/Panel/User.php:608
 msgid "Verification Information"
 msgstr "اطلاعات احراز هویت"
 
-#: src/Pmpr/Module/Panel/User.php:610
+#: src/Pmpr/Module/Panel/User.php:611
 msgid "National Code"
 msgstr "کد ملی"
 
-#: src/Pmpr/Module/Panel/User.php:615
+#: src/Pmpr/Module/Panel/User.php:616
 msgid "National Card"
 msgstr "کارت ملی"
 
