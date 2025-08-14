@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Panel\n"
-"POT-Creation-Date: 2025-07-15 13:00+0330\n"
-"PO-Revision-Date: 2025-07-15 13:03+0330\n"
+"POT-Creation-Date: 2025-08-14 21:24+0330\n"
+"PO-Revision-Date: 2025-08-14 21:24+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -49,23 +49,28 @@ msgstr[0] ""
 msgid "At %s"
 msgstr "در %s"
 
-#: src/Pmpr/Module/Panel/Plugin/Woocommerce/Woocommerce.php:123
+#: src/Pmpr/Module/Panel/Plugin/Woocommerce/Woocommerce.php:42
+#: src/Pmpr/Module/Panel/Rewrite.php:169
+msgid "User Panel"
+msgstr "پنل کاربری"
+
+#: src/Pmpr/Module/Panel/Plugin/Woocommerce/Woocommerce.php:133
 msgid "Store"
 msgstr "فروشگاه"
 
-#: src/Pmpr/Module/Panel/Plugin/Woocommerce/Woocommerce.php:129
+#: src/Pmpr/Module/Panel/Plugin/Woocommerce/Woocommerce.php:139
 msgid "My Orders"
 msgstr "سفارش‌های من"
 
-#: src/Pmpr/Module/Panel/Plugin/Woocommerce/Woocommerce.php:131
+#: src/Pmpr/Module/Panel/Plugin/Woocommerce/Woocommerce.php:141
 msgid "List of your product orders."
 msgstr "لست محصولات سفارش داده شده توسط شما."
 
-#: src/Pmpr/Module/Panel/Plugin/Woocommerce/Woocommerce.php:135
+#: src/Pmpr/Module/Panel/Plugin/Woocommerce/Woocommerce.php:145
 msgid "My Downloads"
 msgstr "دانلود‌های من"
 
-#: src/Pmpr/Module/Panel/Plugin/Woocommerce/Woocommerce.php:137
+#: src/Pmpr/Module/Panel/Plugin/Woocommerce/Woocommerce.php:147
 msgid "List of your downloaded products."
 msgstr "لیست محصولات دانلودی شما."
 
@@ -85,7 +90,7 @@ msgstr ""
 #: src/Pmpr/Module/Panel/REST/Auth.php:350
 #: src/Pmpr/Module/Panel/REST/Setting.php:127
 #: src/Pmpr/Module/Panel/REST/Setting.php:141
-#: src/Pmpr/Module/Panel/REST/Setting.php:168 src/Pmpr/Module/Panel/User.php:573
+#: src/Pmpr/Module/Panel/REST/Setting.php:168 src/Pmpr/Module/Panel/User.php:582
 msgid "Email"
 msgstr "ایمیل"
 
@@ -236,28 +241,28 @@ msgid "Can not login now, please try later."
 msgstr ""
 "در حال حاضر قادر به ورود به حساب کاربری نیستید، لطفا بعدا دوباره تلاش کنید."
 
-#: src/Pmpr/Module/Panel/REST/Common.php:92
+#: src/Pmpr/Module/Panel/REST/Common.php:96
 msgid "User ID not found in the token"
 msgstr ""
 
-#: src/Pmpr/Module/Panel/REST/Common.php:96
+#: src/Pmpr/Module/Panel/REST/Common.php:100
 msgid "The iss do not match with this server"
 msgstr ""
 
-#: src/Pmpr/Module/Panel/REST/Common.php:105
+#: src/Pmpr/Module/Panel/REST/Common.php:109
 #: src/Pmpr/Module/Panel/Traits/TokenTrait.php:50
 msgid "JWT is not configured properly."
 msgstr ""
 
-#: src/Pmpr/Module/Panel/REST/Common.php:109
+#: src/Pmpr/Module/Panel/REST/Common.php:113
 msgid "Authorization header malformed."
 msgstr ""
 
-#: src/Pmpr/Module/Panel/REST/Common.php:113
+#: src/Pmpr/Module/Panel/REST/Common.php:117
 msgid "Authorization header not found"
 msgstr ""
 
-#: src/Pmpr/Module/Panel/REST/Common.php:133
+#: src/Pmpr/Module/Panel/REST/Common.php:137
 msgid "User not found"
 msgstr "کاربر مورد نظر یافت نشد"
 
@@ -507,7 +512,7 @@ msgstr "ورود به حساب کاربری"
 msgid "After Check your %s, select the login mode."
 msgstr "بعد از بررسی %s خود، نوع ورود را مشخص کنید."
 
-#: src/Pmpr/Module/Panel/REST/Setting.php:128 src/Pmpr/Module/Panel/User.php:593
+#: src/Pmpr/Module/Panel/REST/Setting.php:128 src/Pmpr/Module/Panel/User.php:602
 msgid "Mobile"
 msgstr "موبایل"
 
@@ -747,10 +752,6 @@ msgstr "خروجی درخواستی شما معتبر نیست."
 msgid "Requested attachment not found."
 msgstr "پیوست درخواستی شما یافت نشد."
 
-#: src/Pmpr/Module/Panel/Rewrite.php:169
-msgid "Frontend Panel"
-msgstr "پنل کاربری"
-
 #: src/Pmpr/Module/Panel/Rewrite.php:251
 msgid ""
 "Looks like your browser not supporting js. please enable it or try with "
@@ -897,65 +898,73 @@ msgstr "پیوندی که وارد کرده‌اید معتبر نیست"
 msgid "The Email you entered is not valid"
 msgstr "ایمیلی که وارد کرده‌اید معتبر نیست"
 
-#: src/Pmpr/Module/Panel/User.php:542
+#: src/Pmpr/Module/Panel/User.php:551
 msgid "User Info"
 msgstr "اطلاعات کاربر"
 
-#: src/Pmpr/Module/Panel/User.php:545
+#: src/Pmpr/Module/Panel/User.php:554
 msgid "Face Picture"
 msgstr "تصویر چهره"
 
-#: src/Pmpr/Module/Panel/User.php:549
+#: src/Pmpr/Module/Panel/User.php:558
 msgid "First Name"
 msgstr "نام"
 
-#: src/Pmpr/Module/Panel/User.php:553
+#: src/Pmpr/Module/Panel/User.php:562
 msgid "Last Name"
 msgstr "نام خانوادگی"
 
-#: src/Pmpr/Module/Panel/User.php:557
+#: src/Pmpr/Module/Panel/User.php:566
 msgid "Nick Name"
 msgstr "نام مستعار"
 
-#: src/Pmpr/Module/Panel/User.php:562
+#: src/Pmpr/Module/Panel/User.php:571
 msgid "Birthday"
 msgstr "تاریخ تولد"
 
-#: src/Pmpr/Module/Panel/User.php:566
+#: src/Pmpr/Module/Panel/User.php:575
 msgid "Description about yourself"
 msgstr "شرحی در مورد خودتان"
 
-#: src/Pmpr/Module/Panel/User.php:570
+#: src/Pmpr/Module/Panel/User.php:579
 msgid "Contact Info"
 msgstr "اطلاعات تماس"
 
-#: src/Pmpr/Module/Panel/User.php:578
+#: src/Pmpr/Module/Panel/User.php:587
 msgid "Website"
 msgstr "وب سایت"
 
-#: src/Pmpr/Module/Panel/User.php:597
+#: src/Pmpr/Module/Panel/User.php:606
 msgid "Address Information"
 msgstr "اطلاعات آدرس"
 
-#: src/Pmpr/Module/Panel/User.php:600
+#: src/Pmpr/Module/Panel/User.php:609
 msgid "Address"
 msgstr "آدرس"
 
-#: src/Pmpr/Module/Panel/User.php:604
+#: src/Pmpr/Module/Panel/User.php:613
 msgid "Postal Code"
 msgstr "کد پستی"
 
-#: src/Pmpr/Module/Panel/User.php:608
+#: src/Pmpr/Module/Panel/User.php:617
 msgid "Verification Information"
 msgstr "اطلاعات احراز هویت"
 
-#: src/Pmpr/Module/Panel/User.php:611
+#: src/Pmpr/Module/Panel/User.php:620
 msgid "National Code"
 msgstr "کد ملی"
 
-#: src/Pmpr/Module/Panel/User.php:616
+#: src/Pmpr/Module/Panel/User.php:625
 msgid "National Card"
 msgstr "کارت ملی"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "َUser Panel"
+#~ msgstr "نام کاربری"
+
+#~ msgid "Frontend Panel"
+#~ msgstr "پنل کاربری"
 
 #~ msgid "Enable Registration"
 #~ msgstr "فعال کردن ثبت‌نام"
