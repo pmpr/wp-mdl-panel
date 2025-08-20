@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             689e5f33edb54             |
+    |             68a63e2b86f2a             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Panel; use Pmpr\Common\Foundation\Interfaces\IconInterface; use Pmpr\Module\Mailer\AbstractEmail; class Email extends AbstractEmail { public function qiccuiwooiquycsg() { $this->usuqmwksoeaayaig('forgot_password')->gswweykyogmsyawy(__('Panel Forgot Password', PR__MDL__PANEL))->gucwmccyimoagwcm(__('Configure Forgot Password', PR__MDL__PANEL))->saemoowcasogykak(IconInterface::cokkqwmiaowmqcqs); } }
